@@ -1,0 +1,224 @@
+{
+  "name": "Patient Application",
+  "short_name": "Patient App",
+  "description": "Patient Application, a project of reinvimd",
+  "id": "com.reinvimd.m",
+  "app_id": "com.reinvimd.m",
+  "background_color": "#3C3D44",
+  "theme_color": "#fff8dc",
+  "start_url": "/",
+  "dir": "ltr",
+  "scope": "/",
+  "lang": "en",
+  "orientation": "natural",
+  "display": "standalone",
+  "launch_handler": {
+    "client_mode": [
+      "focus-existing",
+      "auto"
+    ]
+  },
+  "handle_links": "preferred",
+  "scope_extensions": [],
+  "iarc_rating_id": "demo-iarc-id-123456",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/home-1290x2796.png",
+      "sizes": "1290x2796",
+      "type": "image/png",
+      "label": "Home screen"
+    },
+    {
+      "src": "/screenshots/home-2400x1600.png",
+      "sizes": "2400x1600",
+      "type": "image/png",
+      "label": "Home screen",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/preview/register.png",
+      "sizes": "1440x2960",
+      "type": "image/png",
+      "label": "Registration screen"
+    },
+    {
+      "src": "/screenshots/register-2400x1600.png",
+      "sizes": "2400x1600",
+      "type": "image/png",
+      "label": "Registration screen",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/preview/login.png",
+      "sizes": "1440x2960",
+      "type": "image/png",
+      "label": "Login screen"
+    },
+    {
+      "src": "/screenshots/login-2400x1600.png",
+      "sizes": "2400x1600",
+      "type": "image/png",
+      "label": "Login screen",
+      "form_factor": "wide"
+    }
+  ],
+  "display_override": [
+    "standalone",
+    "window-controls-overlay"
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "categories": [
+    "fitness",
+    "health"
+  ],
+  "edge_side_panel": {
+    "preferred_width": 376
+  },
+  "widgets": [],
+  "shortcuts": [
+    {
+      "name": "Login",
+      "url": "/login",
+      "description": "Login to the application",
+      "icons": [
+        {
+          "src": "/shortcuts/login-36x36.png",
+          "type": "image/png",
+          "sizes": "36x36"
+        },
+        {
+          "src": "/shortcuts/login-48x48.png",
+          "type": "image/png",
+          "sizes": "48x48"
+        },
+        {
+          "src": "/shortcuts/login-72x72.png",
+          "type": "image/png",
+          "sizes": "72x72"
+        },
+        {
+          "src": "/shortcuts/login-96x96.png",
+          "type": "image/png",
+          "sizes": "96x96"
+        },
+        {
+          "src": "/shortcuts/login-144x144.png",
+          "type": "image/png",
+          "sizes": "144x144"
+        },
+        {
+          "src": "/shortcuts/login-192x192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Home",
+      "url": "/",
+      "description": "Home screen",
+      "icons": [
+        {
+          "src": "/shortcuts/home-36x36.png",
+          "type": "image/png",
+          "sizes": "36x36"
+        },
+        {
+          "src": "/shortcuts/home-48x48.png",
+          "type": "image/png",
+          "sizes": "48x48"
+        },
+        {
+          "src": "/shortcuts/home-72x72.png",
+          "type": "image/png",
+          "sizes": "72x72"
+        },
+        {
+          "src": "/shortcuts/home-96x96.png",
+          "type": "image/png",
+          "sizes": "96x96"
+        },
+        {
+          "src": "/shortcuts/home-144x144.png",
+          "type": "image/png",
+          "sizes": "144x144"
+        },
+        {
+          "src": "/shortcuts/home-192x192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Profile",
+      "url": "/profile",
+      "description": "Profile screen",
+      "icons": [
+        {
+          "src": "/shortcuts/profile-36x36.png",
+          "type": "image/png",
+          "sizes": "36x36"
+        },
+        {
+          "src": "/shortcuts/profile-48x48.png",
+          "type": "image/png",
+          "sizes": "48x48"
+        },
+        {
+          "src": "/shortcuts/profile-72x72.png",
+          "type": "image/png",
+          "sizes": "72x72"
+        },
+        {
+          "src": "/shortcuts/profile-96x96.png",
+          "type": "image/png",
+          "sizes": "96x96"
+        },
+        {
+          "src": "/shortcuts/profile-144x144.png",
+          "type": "image/png",
+          "sizes": "144x144"
+        },
+        {
+          "src": "/shortcuts/profile-192x192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

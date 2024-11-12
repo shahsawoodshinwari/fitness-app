@@ -7,16 +7,16 @@
 
   <title>{{ config('app.name', 'Fitness App') }}</title>
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.bunny.net">
-  <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-
-  @vite(['resources/css/app.css', 'resources/js/app.js'])
+  @vite(['resources/saas/app.scss', 'resources/saas/welcome.scss'])
 </head>
 
-<body class="font-sans antialiased dark:bg-black dark:text-white/50">
-  <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
-  </div>
+<body data-bs-theme="dark" class="d-flex flex-column h-100">
+  <main class="flex-grow-1 overflow-y-auto container py-3">
+    ...
+  </main>
+  <x-navigation></x-navigation>
+
+  @vite(['resources/js/app.js'])
 </body>
 
 </html>
