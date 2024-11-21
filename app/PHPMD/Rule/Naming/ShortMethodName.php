@@ -6,10 +6,10 @@ use PHPMD\Rule\Naming\ShortMethodName as BaseClass;
 
 class ShortMethodName extends BaseClass
 {
-  protected function getExceptionsList(): array
-  {
-    return [
-      'id',
-    ];
-  }
+    protected function getExceptionsList(): array
+    {
+        return [
+            'id',
+        ];
+    }
 }
